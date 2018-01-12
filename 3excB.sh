@@ -11,9 +11,9 @@ commit_files() {
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [skip ci]"
   git status
 }
-git rm -r --cached node_modules/
+git rm -r --cached node_modules
 # git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed [skip ci] "
 commit_files
-git push -fq origin master > /dev/null
+git push
 git push --follow-tags origin master
 echo `chandler push`
