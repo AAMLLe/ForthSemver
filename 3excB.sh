@@ -3,6 +3,9 @@
 git status
 
 git checkout -b master
+git tag -d `git tag | grep -E '.'`
+rm CHANGELOG.md
+
 echo `npm run releaseTh`
 
 commit_files() {
