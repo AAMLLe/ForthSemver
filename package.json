@@ -1,0 +1,30 @@
+{
+  "name": "Semver Demo",
+  "version": "1.0.0",
+  "description": "demo sem ver",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/syncTest.js",
+    "releaseTh": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AAMLLe/ForthSemver.git"
+  },
+  "keywords": [
+    "demo",
+    "semantic",
+    "version"
+  ],
+  "author": "AL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AAMLLe/ForthSemver/issues"
+  },
+  "homepage": "https://github.com/AAMLLe/ForthSemver#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+  }
+}
