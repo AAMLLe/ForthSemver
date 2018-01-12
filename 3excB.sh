@@ -16,6 +16,6 @@ commit_files() {
 git rm -r --cached node_modules
 # git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed [skip ci] "
 commit_files
-git push
+git push --set-upstream origin master
 git push --follow-tags origin master
 echo `chandler push`
