@@ -7,6 +7,7 @@ git tag -d `git tag | grep -E '.'`
 rm CHANGELOG.md
 
 head .git/COMMIT_EDITMSG
+head .git/config
 echo `npm run releaseTh`
 
 commit_files() {
