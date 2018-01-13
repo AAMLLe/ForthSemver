@@ -5,7 +5,7 @@ exports.printMsg = function() {
 }
 
 exports.anotherMsg = function(msg) {
-//  console.log(msg.blue);
+  console.log(msg.blue);
 }
 
 exports.anotherMsg = function(msg, color, repeatTimes) {
