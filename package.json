@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/syncTest.js",
-    "releaseTh": "standard-version"
+    "releaseTh": "standard-version",
+    "gitPush": "git push --set-upstream origin master"
   },
   "repository": {
     "type": "git",
