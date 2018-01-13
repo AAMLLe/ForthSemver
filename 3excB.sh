@@ -6,6 +6,7 @@ git checkout -b master
 git tag -d `git tag | grep -E '.'`
 rm CHANGELOG.md
 
+head .git/COMMIT_EDITMSG
 echo `npm run releaseTh`
 
 commit_files() {
